@@ -1,0 +1,9 @@
+com\faai\backend\repository\ProductRepository.class
+com\faai\backend\service\UserService.class
+com\faai\backend\controller\UserController.class
+com\faai\backend\model\Product.class
+com\faai\backend\model\User.class
+com\faai\backend\BackendApplication.class
+com\faai\backend\controller\ProductController.class
+com\faai\backend\repository\UserRepository.class
+com\faai\backend\service\ProductService.class
