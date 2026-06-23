@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "./run_dev.sh",
     "dev:front": "vite --host",
-    "dev:back": "cd backend && mvn spring-boot:run",
-    "dev:all": "concurrently -n \"Frontend,Backend\" -c \"cyan,green\" \"npm run dev:front\" \"npm run dev:back\"",
+    "dev:back": "./run_dev.sh",
+    "dev:all": "./run_dev.sh",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

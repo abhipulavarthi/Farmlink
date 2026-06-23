@@ -35,7 +35,7 @@ export default function Navbar() {
             {/* Global UI Elements Overlay */}
             <div className="fixed inset-0 pointer-events-none z-[60]">
                 {/* Top Left: Navigation Links */}
-                {!isHome && !isRegister && (
+                {!isHome && !isRegister && location.pathname !== '/recipes' && location.pathname !== '/planting' && (
                     <div className="pointer-events-auto absolute top-8 left-8 flex items-center gap-4">
                         <motion.button
                             initial={{ opacity: 0, x: -20 }}
